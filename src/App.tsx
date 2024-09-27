@@ -7,7 +7,7 @@ class App extends React.Component {
   render(): React.ReactNode {
     return (
       <div className="App">
-        <Clock/>
+        <Clock />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
