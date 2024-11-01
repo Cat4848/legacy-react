@@ -9,7 +9,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Clock />
-        <Greeting message="Jonathan"/>
+        <Greeting message="Jonathan" />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>

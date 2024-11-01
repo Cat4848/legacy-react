@@ -25,7 +25,7 @@ export default class Greeting extends React.Component<GreetingProps> {
 
   render(): React.ReactNode {
     return (
-      <div>
+      <div id="greeting-wrapper">
         Greetings from
         <span>
           <h1>{this.state.message}</h1>
